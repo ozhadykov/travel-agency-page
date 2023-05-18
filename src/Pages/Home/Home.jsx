@@ -1,13 +1,13 @@
 import {
   Navbar,
   WelcomeComponent,
-  AboutUsComponent,
   ToursCarouselComponent,
   OfferFormComponent,
   NumberCardsComponent,
   FounderCardsComponent,
   FAQsComponent,
   ContactFormComponent,
+  StepsComponent,
 } from './HomeComponents'
 
 function Home() {
@@ -16,11 +16,11 @@ function Home() {
       <Navbar />
       <main>
         <WelcomeComponent />
-        {/* <AboutUsComponent /> */}
+        <StepsComponent />
         <ToursCarouselComponent />
         <NumberCardsComponent />
-        <FounderCardsComponent />
         <OfferFormComponent />
+        {/* <FounderCardsComponent /> */}
         <FAQsComponent />
         <ContactFormComponent />
       </main>

@@ -42,3 +42,13 @@ colors:
 text-colors:
 #f8f9fa - light
 #343a40 - dark
+
+Strategy:
+
+First i will create everything with html and css. Add some Logic with React JS.
+
+After that i want to make a branch which will contain all this project with css Modules and update React JS logic of the Site
+
+After i want to work more on semantic html and Add Styled components
+
+In the end i will give this WebPage life with the whole Rract JS logic

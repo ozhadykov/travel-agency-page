@@ -5,7 +5,7 @@ function ContactFormComponent() {
     <section className="contact-form">
       <div className="left">
         <div className="location">
-          <h1>Contact Us</h1>
+          <h1>Still have questions?</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
             veritatis. Distinctio repellendus nulla corporis consectetur nemo,
