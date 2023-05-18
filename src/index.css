@@ -224,8 +224,97 @@ section#welcome-hero {
   font-weight: 500;
 }
 
+/* STEPS SECTION */
+
+.steps-section {
+  max-width: 1250px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 144px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+}
+
+.steps-section .heading-text p{
+  font-size: 16px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  color: #087f5b;
+
+  margin-bottom: 16px;
+}
+
+.steps-section .heading-text h1 {
+  font-size: 48px;
+  color: #343a40;
+}
+
+.steps-section .cards-container {
+  width: 1000px;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 144px;
+}
 
 
+.steps-section .cards-container .container {
+  min-height: 200px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.steps-section .cards-container .container .box {
+  min-width: 400px;
+
+  transform: translateX(-50px);
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.steps-section .cards-container .container .box p {
+  font-size: 72px;
+  font-weight: 500;
+
+  color: #495057;
+
+  display: flex;
+  align-items: center;
+}
+
+.steps-section .cards-container .container .box .content {
+  border: 4px solid #087f5b;
+}
+
+.steps-section .cards-container .container .text {
+  padding: 16px 8px;
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+.steps-section .cards-container .container .text h4 {
+  font-size: 32px;
+}
+
+.steps-section .cards-container .container .text p {
+  font-size: 18px;
+  font-weight: 300;
+
+  line-height: 1.8;
+}
 /* ABOUT HERO section */
 
 .about-section {

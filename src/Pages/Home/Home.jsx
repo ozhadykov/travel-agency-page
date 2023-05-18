@@ -4,7 +4,6 @@ import {
   ToursCarouselComponent,
   OfferFormComponent,
   NumberCardsComponent,
-  FounderCardsComponent,
   FAQsComponent,
   ContactFormComponent,
   StepsComponent,
@@ -20,7 +19,6 @@ function Home() {
         <ToursCarouselComponent />
         <NumberCardsComponent />
         <OfferFormComponent />
-        {/* <FounderCardsComponent /> */}
         <FAQsComponent />
         <ContactFormComponent />
       </main>
