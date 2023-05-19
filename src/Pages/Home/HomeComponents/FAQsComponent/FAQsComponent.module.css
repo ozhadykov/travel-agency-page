@@ -1,0 +1,86 @@
+.accordion_section {
+  width: 100%;
+  margin: 98px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.accordion_item {
+  padding: 24px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  height: 78px;
+  transition: height 0.2s;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text {
+  margin-top: 3px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.hidden_text {
+  grid-column: 2;
+  display: none;
+  overflow: hidden;
+}
+
+.hidden_text p {
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.hidden_text ul {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon_btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  rotate: 90deg;
+  transition: ease 0.2s;
+}
+
+.accordion_item.open {
+  height: 315px;
+}
+
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .number,
+.open .text{
+  color: #087f5b;
+}
+
+.open .icon_btn{
+  rotate: 0deg;
+  transition: ease 0.2s;
+}
+
+.open .hidden_text {
+  display: block;
+  height: auto;
+}

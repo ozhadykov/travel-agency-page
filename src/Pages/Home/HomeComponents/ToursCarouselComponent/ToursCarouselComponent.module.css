@@ -1,0 +1,47 @@
+.tours_carousel_component {
+  margin: 98px auto;
+  max-width: 1250px;
+  
+  position: relative;
+}
+
+.heading_block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 80px;
+}
+
+.heading_block p {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  color: #087f5b;
+}
+
+.heading_block h2 {
+  font-size: 48px;
+}
+
+
+
+.tours_carousel_component a,
+.tours_carousel_component a:visited {
+  margin-top: 80px;
+  max-width: 120px;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  text-decoration: none;
+  color: #087f5b;
+  border-bottom: 1px solid #087f5b;
+}
+
+.tours_carousel_component a:hover {
+  color: #087f5b;
+  border-bottom: none;
+}

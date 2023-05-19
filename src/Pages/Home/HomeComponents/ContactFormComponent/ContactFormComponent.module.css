@@ -1,0 +1,120 @@
+
+.contact_form {
+  width: 100%;
+  height: 600px;
+  padding: 96px 64px;
+
+  background-color: #f8f9fa;
+  
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.location h1{
+  font-size: 42px;
+}
+
+.location p {
+  width: 400px;
+
+  font-size: 18px;
+  line-height: 2;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.social-links strong {
+  font-size: 32px;
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+}
+
+.icons a:link,
+.icons a:visited {
+  width: 28px;
+  color: #343a40;
+}
+
+.icons a:hover {
+  color: #087f5b;
+}
+
+.icons a svg {
+  width: 28px;
+  height: 28px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right form {
+  width: 80%;
+
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+
+ .right form input {
+  height: 34px;
+  padding: 4px;
+
+  border: 1px solid #495057;
+  border-radius: 10px;
+
+  font-size: 16px;
+}
+
+.right form textarea {
+  padding: 4px;
+
+  border-radius: 10px;
+  
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.right form button {
+  width: 248px;
+  height: 48px;
+  padding: 12px 0px;
+
+  border-radius: 10px;
+  border: none;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  background-color: #087f5b;
+  color: #f8f9fa;
+}

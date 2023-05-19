@@ -1,0 +1,51 @@
+.welcome_hero {
+  margin: 48px auto;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 170px;
+}
+
+.welcome_hero img {
+  height: 600px;
+}
+
+.right_block {
+  width: 500px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  color: #343a40;
+
+}
+
+.btn_block {
+  display: flex;
+}
+
+.btn_one,
+.btn_two {
+  padding: 14px 26px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn_one {
+  background-color: #087f5b;
+  color: #f8f9fa;
+  margin-right: 32px;
+}
+
+.right_block h1 {
+  font-size: 52px;
+}
+
+.right_block p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 200;
+}

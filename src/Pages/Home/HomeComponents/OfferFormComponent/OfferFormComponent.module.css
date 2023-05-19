@@ -1,0 +1,61 @@
+.offer_section {
+  max-width: 1250px;
+  height: 300px;
+
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 40px 0;
+
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #f8f9fa;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.offer_section h1 {
+  width: 650px;
+
+  text-align: center;
+
+  font-size: 40px;
+}
+
+.offer_section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.offer_section input{
+  width: 360px;
+  height: 40px;
+  padding-left: 8px;
+
+  border-radius: 10px;
+  border: 1px solid #087f5b;
+
+  font-size: 16px;
+}
+
+.offer_section button {
+  width: 150px;
+  height: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 10px;
+  border: none;
+  background-color: #087f5b;
+  color: #f8f9fa;
+}

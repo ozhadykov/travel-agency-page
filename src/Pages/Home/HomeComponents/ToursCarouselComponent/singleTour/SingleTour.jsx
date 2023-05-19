@@ -1,36 +1,33 @@
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 import CarouselDots from '../dotsComponent/CarouselDots'
-import { useEffect } from 'react'
+import styles from './SingleTour.module.css'
 
 function SingleTour({ header, description, img, changeTour, currentTour }) {
   return (
-    <div className="single-tour">
-      <div className="left">
-        <div className="top-container">
+    <div className={styles.single_tour}>
+      <div className={styles.left}>
+        <div className={styles.top_container}>
           <strong>WHERE TO GO?</strong>
           <h1>{header}</h1>
-          <div className="text">{description}</div>
-          <button className="btn btn.learn-more">Learn more</button>
+          <div className={styles.text}>{description}</div>
+          <button className={styles.btn}>Learn more</button>
         </div>
 
-        <div className="controls">
-          <button className="c-btn btn-left" onClick={() => changeTour('prev')}>
-            <BsArrowLeft className="btn-icon" />
+        <div className={styles.controls}>
+          <button className={styles.c_btn} onClick={() => changeTour('prev')}>
+            <BsArrowLeft className={styles.btn_icon} />
             <p>prev</p>
           </button>
 
           <CarouselDots currentDot={currentTour} />
 
-          <button
-            className="c-btn btn-right"
-            onClick={() => changeTour('next')}
-          >
+          <button className={styles.c_btn} onClick={() => changeTour('next')}>
             <p>next</p>
-            <BsArrowRight className="btn-icon" />
+            <BsArrowRight className={styles.btn_icon} />
           </button>
         </div>
       </div>
-      <div className="right">
+      <div className={styles.right}>
         <img src={img} />
       </div>
     </div>

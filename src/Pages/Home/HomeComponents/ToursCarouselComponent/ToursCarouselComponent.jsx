@@ -3,6 +3,7 @@ import SingleTour from './singleTour/SingleTour'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
+import styles from './ToursCarouselComponent.module.css'
 
 function ToursCarouselComponent() {
   const [currentTour, setCurrentTour] = useState(0)
@@ -14,8 +15,8 @@ function ToursCarouselComponent() {
   }
 
   return (
-    <section className="tours-carousel-component">
-      <div className="heading-block">
+    <section className={styles.tours_carousel_component}>
+      <div className={styles.heading_block}>
         <p>TOURS</p>
         <h2>You can choose one from 100+ our tours</h2>
       </div>
